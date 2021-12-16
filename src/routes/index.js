@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const passport = require('passport');
-
+//las rutas donde  navegara el usuario
 router.get('/', (req, res, next) => {
   res.render('index');
 });
