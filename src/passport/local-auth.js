@@ -30,7 +30,7 @@ passport.use('local-signup', new LocalStrategy({
     done(null, newUser);
   }
 }));
-
+//autenticación de usuario
 passport.use('local-signin', new LocalStrategy({
   usernameField: 'email',
   passwordField: 'password',
